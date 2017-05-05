@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nastaveni>
+	<version_of_app version="2.0" />
+	<console_in_app console="false" />
+	<number_of_users users="1" />
+	<online port="5000" />
+	<lang lang="EN, CZ" />
+	<subtitles enabled="true" lang="CZ" />
+	<login>
+		<login>lol@gmail.com</login>
+		<heslo>******</heslo>
+		<autorizace_pres_socialni_site>true</autorizace_pres_socialni_site>
+		<auto_save enabled="true" />
+	</login>
+	<zobrazeni>
+		<jas value="77" />
+		<rozliseni>800_600</rozliseni>
+		<auto_jas enabled="true" />
+		<nocni_rezim enabled="false" />
+		<ovladani_struktury enabled="true" /> 
+		<directx_verze>10</directx_verze>
+		<grafika>Střední</grafika>
+		<stiny>Vysoké</stiny>
+		<struktura>Nizké</struktura>
+		<efekty>Střední</efekty>
+	</zobrazeni>
+	<cas>
+		<hodiny>16</hodiny>
+		<minuty>20</minuty>
+		<secundy>30</secundy>
+		<automaticky_cas enabled="true" />
+	</cas>
+	<datum>
+		<den>01</den>
+		<mesic>05</mesic>
+		<rok>2017</rok>
+		<automaticky_datum enabled="true" />
+	</datum>
+	<ovladani>
+		<ovladac>Myš+Klávesnice</ovladac>
+		<citlivost_mysi>
+			<osa_x>7</osa_x>
+			<osa_y>9</osa_y>
+			<zrychleni>10</zrychleni>
+			<pozice_mysi vertical="false" horizontal="false"  />
+		</citlivost_mysi>
+		<klavesove_ovladani>
+			<tlacitko_1>A</tlacitko_1>
+			<tlacitko_2>S</tlacitko_2>
+			<tlacitko_3>D</tlacitko_3>
+			<tlacitko_4>W</tlacitko_4>
+			<prepnout_tichy_rezim>Alt+T</prepnout_tichy_rezim>
+			<hotovo>Enter</hotovo>
+		</klavesove_ovladani>
+	</ovladani>
+	<zvuk>
+		<hlasitost>77</hlasitost>
+		<zvuk_z_laptopu enabled="false" />
+		<tichy_rezim enabled="false" />
+		<notifikacni_upozorneni enabled="true" />
+		<zvuk_z_reproduktoru enabled="true" />
+		<zvuk_v_sluchatkach enabled="false" />
+		<prostorovy_zvuk enabled="true" />
+	</zvuk>
+</nastaveni>
